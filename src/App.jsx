@@ -3,6 +3,7 @@ import AppLayout from './pages/AppLayout';
 import ProjectsLayout from './pages/ProjectsLayout';
 import NotFound from './components/NotFound';
 import './styles/App.css'; // Import Tailwind CSS
+import './styles/fonts.css';
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<AppLayout />} />
         <Route path="project/:id" element={<ProjectsLayout />} />
-        <Route path="*" element={<NotFound/>}/>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   );

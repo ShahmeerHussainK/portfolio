@@ -74,3 +74,22 @@ body {
   justify-content: center;
   margin-top: 1px;
 }
+
+.font {
+  font-size: 75px;
+  color: black;
+}
+.mar {
+  margin-top: 35px;
+}
+
+.text {
+  font-family: 'gerogia', 'palatino';
+  font-size: 40px;
+  color: black;
+  margin-top: 25px;
+}
+
+.mar1 {
+  margin-top: -100px;
+}
